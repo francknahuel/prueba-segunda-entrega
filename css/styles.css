@@ -19,7 +19,7 @@
     
 }
 .grilla header{
-    background-image: url(./../assets/img/textura\ header.jpg);
+    background-image: url(./../assets/img/textura-header.jpg);
     grid-area: header;
 
 }
@@ -40,7 +40,7 @@
     padding: 1vh
 }
 .encabezado nav{
-    background-image: url(./../assets/img/textura\ header.jpg);
+    background-image: url(./../assets/img/textura-header.jpg);
 
 }
 .encabezado nav ul{
