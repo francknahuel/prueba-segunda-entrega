@@ -230,7 +230,7 @@ a:hover {
   margin-bottom: 0;
   padding-left: 0;
 }
-.pie div ul li img {
+.pie div ul li a img {
   width: 9vh;
   padding: 2vh;
 }
