@@ -1,0 +1,16 @@
+%estilo-textos{
+    font-family: nth($list: $tipografias, $n:1 );
+    font-size: larger;
+    font-weight: bold;
+    color: azure;
+}
+%estilo-subtitulos{
+    font-family:nth($list: $tipografias, $n:2 );
+    color: $paleta-1;
+    text-decoration:underline
+}
+%imgs-formacion{
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px 5px;
+    width:30em ;
+}

@@ -1,0 +1,44 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    .logo{
+        display: flex;
+        align-items: center;
+        img{
+            width: 15vh; 
+        }
+        h1{
+        font-weight: 10;
+        font-family: nth($list: $tipografias, $n: 1)
+        }
+    
+        }
+    nav{
+        background-image: url(./../assets/img/textura-header.jpg);
+        .container-fluid{
+            .menu-button{
+                border: none;
+                .menu-icon{
+                    background-image: url(./../assets/img/menu-alt-svgrepo-com.svg);
+                }
+            }
+            .navbar-collapse{
+                ul{
+                    display: flex;
+                    column-gap: 5vh;
+                    list-style: none;
+                    margin-bottom: 0;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: black;
+                                }
+                            }
+                        } 
+                    }
+                }
+            } 
+    }
+    

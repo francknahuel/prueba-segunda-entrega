@@ -1,0 +1,27 @@
+.pie{
+    div{
+        h2{
+            color:$paleta-1;
+            display: flex;
+            justify-content: center;
+            text-decoration: underline;
+            font-family: nth($list: $tipografias, $n:1 )
+        } 
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;  
+            padding-left: 0;
+            li{
+                a{
+                    img{
+                        width: 9vh;
+                        padding: 2vh;
+                    }  
+                }
+               
+                } 
+            }
+        }
+    }

@@ -1,0 +1,293 @@
+/*medias de tablet*/
+@media (min-width:769px) and (max-width: 1024px ){
+    .encabezado{
+        
+        .logo{
+            img{
+                width: 14vh;
+            h1{}
+        }
+    } 
+        nav{
+            .contaner-fluid{
+                .menu-button{
+                    .menu-icon{}
+                }
+            }
+            .navbar-collapse{
+                ul{
+                    li{
+                        a{}
+                    }
+                }
+            }
+        }
+}  
+
+    /*body index*/ 
+    .main-index{
+        .eslogan{
+            h2{}
+        }
+        .presentacion{
+        p{
+            font-size: medium;
+        }
+        img{
+            width: 20em;
+            
+        }
+    }
+    }
+    
+
+    /*main sobre nosotros*/
+    .main-nosotros{
+        flex-direction: column;
+        .parrafo{
+            h2{}
+            p{} 
+        }
+        .imagenes{
+            .linea-1{
+                justify-content: center;
+                img{}
+            }
+            .linea-2{
+                justify-content: center;
+                img{}
+            }
+        }
+    }
+    /*main contacto*/
+    .contacto{
+        .formulario{
+            form{
+                .informacion{
+                    .form-label{}
+                    .form-control{}
+                    }
+                .informacion-2{
+                    .form-label{}
+                    .form-select{}   
+                    }
+                .informacion-3{
+                    .imput-3{}
+                    .label-3{}
+                    } 
+                .boton-contacto{
+                    .btn-primary{}
+                    } 
+                }
+            } 
+        .img-contacto{
+            .photo{
+                .photo-a{
+                    width: 20em;
+                }
+            }
+            .photo-2{
+                .photo-b{
+                    width: 19em;
+                }
+                }
+            }
+        }  
+        /*main-formacion*/
+        .main-formacion{
+            .formacion{
+                .seccion-a{
+                    .titulo-1{
+                        font-size: medium;
+                    }
+                    .texto-a{
+                        font-size: medium;
+                    }
+                }
+                .photo-a{
+                    width: 25em;
+                }
+            }
+            .enseñanza{
+                .photo-b{
+                    width: 25em;
+                }
+                .seccion-b{
+                    .titulo-2{
+                        font-size: medium;
+                    }
+                    .texto-b{
+                        font-size: medium;
+                    }
+                }
+            }
+            .asistencia{
+                .seccion-c{
+                    .titulo-3{font-size: medium;}
+                    .texto-c{
+                        font-size: medium;
+                    }
+                }
+                .photo-c{
+                    width: 25em;
+                }
+            }
+        }
+
+}
+
+/*media query mobile*/
+
+@media (min-width:390px) and (max-width: 768px){
+    /*body index*/
+    .main-index{
+        .eslogan{
+            h2{
+
+            }
+        }
+        .presentacion{
+            flex-direction: column;
+    align-items: center;
+        p{
+            font-size: small;
+        }
+        img{
+            width: 15em; 
+        }
+    }
+    }
+/*main galeria*/
+.primero-card{
+    flex-direction: column-reverse;
+    padding: 1em;
+}
+.segundo-card{
+    flex-direction: column-reverse;
+    padding: 1em;
+}
+/*main sobre nosotros*/
+.main-nosotros{
+    flex-direction: column;
+    .parrafo{
+        h2{
+            text-align: center;
+        }
+        p{
+            font-size: small;
+        } 
+    }
+    .imagenes{
+        .linea-1{
+            justify-content: center;
+            img{
+                width: 10em;
+            }
+        }
+        .linea-2{
+            justify-content: center;
+            img{
+                width: 10em;
+            }
+        }
+    }
+}
+/*main contacto*/
+.contacto{
+    .formulario{
+        form{
+            .informacion{
+                .form-label{}
+                .form-control{}
+                }
+            .informacion-2{
+                .form-label{}
+                .form-select{}   
+                }
+            .informacion-3{
+                .imput-3{}
+                .label-3{}
+                } 
+            .boton-contacto{
+                .btn-primary{}
+                } 
+            }
+        } 
+    .img-contacto{
+        flex-direction: column;
+        padding: 3vh;
+        
+        .photo{
+            padding: 2vh;
+            .photo-a{
+                width: 20em;
+            }
+        }
+        .photo-2{
+            padding: 2vh;
+            .photo-b{
+                width: 20em;
+            }
+            }
+        }
+    }   
+
+/*main-formacion*/
+    .main-formacion{
+        .formacion{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            .seccion-a{
+                padding: 1em;
+                .titulo-1{
+                    font-size: medium;
+                }
+                .texto-a{
+                    font-size: small;
+                }
+            }
+            .photo-a{
+                width: 15em;
+            }
+        }
+        .enseñanza{
+            flex-direction:column-reverse;
+            text-align: center;
+            padding: 1em;
+            .photo-b{
+                width: 14em;
+            }
+            .seccion-b{
+                padding: 1em;
+                .titulo-2{
+                    font-size: medium;
+                }
+                .texto-b{
+                    font-size: small;
+                }
+            }
+        }
+        .asistencia{
+            flex-direction: column;
+            text-align: center;
+ 
+            .seccion-c{
+                .titulo-3{font-size: medium;}
+                .texto-c{
+                    font-size: small;
+                }
+            }
+            .photo-c{
+                width: 14em;
+            }
+        }
+    }
+
+    
+}
+
+
+
+

@@ -1,0 +1,12 @@
+@import"./utilities/variables";
+@import"./utilities/mixin";
+@import "./utilities/globals";
+@import "./components/header";
+@import"./utilities/extend";
+@import"./pages/main-index";
+@import"./pages/main-sobre-nosotros";
+@import"./pages/main-galeria";
+@import"./pages/main-contacto";
+@import"./pages/main-formacion";
+@import"./components/footer";
+@import"./utilities/mediaquery";

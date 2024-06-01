@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--link logo de pagina-->
     <link rel=" icon" href="./../assets/img/logo-header.png" type="image/x-icon">
-    <title>Real estate/sobrenosotros</title>
+    <title>Real state/sobrenosotros</title>
+    <meta name="description" content="la constructora del futuro,confiable,moderna y lideres del mercado actual">
+    <meta name="keywords"content="Constructora, materiales ,construccion ,presupuesto, cabañas, oficinas, casa, departamentos, compra">
     <!--link a fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +18,13 @@
     <!--link boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--lin a css-->
-    <link rel="stylesheet" href="./../css/styles.css">
+    <link rel="stylesheet" href="./../css/main.css">
 </head>
 <body>
     <div class="grilla">
         <header class="encabezado">
                 <div class="logo">
-                    <a href="./index.html"><img src="./../assets/img/logo-header.png" alt=""></a>
+                    <a href="./../index.html"><img src="./../assets/img/logo-header.png" alt="logo-header"></a>
                     <h1>Real construccion</h1>
                 </div>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -55,68 +57,74 @@
         </header>
         <main>
             <div class="contacto">
-            <section>
-                <form class="row g-3">
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">nombre completo</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">telefono</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputAddress" class="form-label">direccion 1</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="san martin 3500">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputAddress2" class="form-label">direccion 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="casa, departamento o piso">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputCity" class="form-label">ciudad</label>
-                        <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="inputState" class="form-label">provincia</label>
-                        <select id="inputState" class="form-select">
-                        <option selected>elegir...</option>
-                        <option>buenos aires</option>
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <label for="inputZip" class="form-label">codigo postal</label>
-                        <input type="text" class="form-control" id="inputZip">
-                    </div>
-                    <div class="col-12">
-                        <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            acepto que me envien informacio adicional
-                        </label>
+                <section class="formulario">
+                    <form class="row g-3">
+                        <div class="col-md-6 informacion">
+                            <label for="inputEmail4" class="form-label">nombre completo</label>
+                            <input type="email" class="form-control" id="inputEmail4">
                         </div>
+                        <div class="col-md-6 informacion">
+                            <label for="inputPassword4" class="form-label">telefono</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12 informacion">
+                            <label for="inputAddress" class="form-label">direccion 1</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="san martin 3500">
+                        </div>
+                        <div class="col-12 informacion">
+                            <label for="inputAddress2" class="form-label">direccion 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="casa, departamento o piso">
+                        </div>
+                        <div class="col-md-6 informacion">
+                            <label for="inputCity" class="form-label">ciudad</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4 informacion-2">
+                            <label for="inputState" class="form-label">provincia</label>
+                            <select id="inputState" class="form-select">
+                            <option selected>elegir...</option>
+                            <option>buenos aires</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 informacion">
+                            <label for="inputZip" class="form-label">codigo postal</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12 informacion-3">
+                            <div class="form-check">
+                            <input class="form-check-input imput-3" type="checkbox" id="gridCheck">
+                            <label class="form-check-label label-3" for="gridCheck">
+                                acepto que me envien informacio adicional
+                            </label>
+                            </div>
+                        </div>
+                        <div class="col-12 boton-contacto">
+                            <button type="submit" class="btn btn-primary">enviar</button>
+                        </div>
+                        </form>
+                </section>
+                <section class="img-contacto">
+                    <div class="photo">
+                        <img src="./../assets/img/contacto-1.jpg" class="photo-a" alt="">
                     </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary boton-contacto">enviar</button>
-                    </div>
-                    </form>
-            </section> 
-            
+                    <div class="photo-2">
+                        <img src="./../assets/img/card-oficina.jpg" class="photo-b" alt="">
+                    </div> 
+                </section>  
         </div>   
         </main>
-
         <footer class="pie">
             <div>
                 <h2>Redes</h2>
                 <ul>
                     <li>
-                        <img src="./../assets/img/whatsapp.png" alt="whatsapp">
+                        <a href="https://www.whatsapp.com/?lang=es_LA"><img src="./../assets/img/whatsapp.png" alt="whatsapp"></a>
                     </li>
                     <li>
-                        <img src="./../assets/img/logo-x.png" alt="twitter">
+                        <a href="https://x.com/?lang=ES"><img src="./../assets/img/logo-x.png" alt="twitter"></a>
                     </li>
                     <li>
-                        <img src="./../assets/img/insta.png" alt="insta">
+                        <a href="https://www.instagram.com"><img src="./../assets/img/insta.png" alt="insta"></a>
                     </li>
                 </ul>
             </div>

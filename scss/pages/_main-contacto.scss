@@ -1,0 +1,55 @@
+/*body contacto*/
+.contacto{
+    padding: 10px;
+    @include flextape(column,space-around,center);
+    .formulario{
+        form{
+            .informacion{
+                .form-label{
+                    color: azure; 
+                    font-family: nth($list: $tipografias, $n:1 );
+                }
+                .form-control{}
+                
+            }
+            .informacion-2{
+                .form-label{
+                    color: azure; 
+                    font-family: nth($list: $tipografias, $n:1 );
+                    }
+                .form-select{}   
+                }
+            .informacion-3{
+                .imput-3{}
+                .label-3{
+                    color: azure; 
+                    font-family: nth($list: $tipografias, $n:1 );
+                    }
+                } 
+            .boton-contacto{
+                .btn-primary{
+                    background-color:$paleta-1 ;
+                    border:$paleta-1 ;
+                    font-family:nth($list: $tipografias, $n:1 );
+                    }
+                } 
+            }
+        } 
+    .img-contacto{
+        display: flex;
+        column-gap: 2vh;
+        .photo{
+            .photo-a{
+                border-radius: 1em;
+                box-shadow: 10px 10px 10px 10px black;
+            }
+        }
+        .photo-2{
+            .photo-b{
+                border-radius: 1em;
+                box-shadow: 10px 10px 10px 10px black;
+                }
+            
+            }
+        }
+    }   

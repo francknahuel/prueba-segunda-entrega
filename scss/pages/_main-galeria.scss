@@ -1,0 +1,25 @@
+.primero-card{
+    @include flextape(row, space-around,center);
+    .body-card{
+        background-color: $paleta-1;
+        .card-img-top{}
+        .card-body{
+            .card-title{}
+            .card-text{}
+            .btn{}
+        }
+    }
+}
+.segundo-card{
+    @include flextape(row, space-around,center);
+    .body-card{
+        background-color:$paleta-1;
+        .card-img-top{}
+        .card-body{
+            .card-title{}
+            .card-text{}
+            .btn{}
+            
+        }
+    }
+}

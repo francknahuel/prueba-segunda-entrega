@@ -1,0 +1,38 @@
+.main-nosotros{
+    display: flex;
+    .parrafo{
+        padding: 1vh;
+        h2{
+            @extend %estilo-subtitulos;
+        }
+        p{
+        @extend %estilo-textos;
+        
+        } 
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        .linea-1{
+            display: flex;
+            column-gap: 2vh;
+            padding: 1vh;
+            padding-top: 7vh;
+            img{
+                width: 17em;
+                border-radius: 1vh;
+                box-shadow: 2px 2px 2px 2px black;
+            }
+        }
+        .linea-2{
+            display: flex;
+            column-gap: 1vh;
+            padding: 1vh;
+            img{
+                width: 17em;
+                border-radius: 1vh;
+                box-shadow: 2px 2px 2px 2px black;
+            }
+        }
+    }
+}

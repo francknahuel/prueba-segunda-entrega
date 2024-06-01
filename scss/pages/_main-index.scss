@@ -1,0 +1,23 @@
+.main-index{
+    .eslogan{
+    background-color: darkgrey;
+    text-align: center;
+    font-family: nth($list: $tipografias, $n:1 );
+    padding-top: 1em;
+    height: 5em;
+}
+.presentacion{
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    p{
+        @extend %estilo-textos;
+    }
+    img{
+        width: 25em;
+        border-radius: 1em;
+        box-shadow: 10px 10px 10px 10px black; 
+    }
+}
+
+}

@@ -1,0 +1,48 @@
+.main-formacion{
+    padding: 1em;
+    .formacion{
+        display: flex;
+        padding: 1em;
+        .seccion-a{
+            .titulo-1{
+                @extend %estilo-subtitulos;
+            }
+            .texto-a{
+                @extend %estilo-textos;
+            }
+        }
+        .photo-a{
+            @extend %imgs-formacion;
+        }
+    }
+    .enseñanza{
+        display: flex;
+        column-gap: 1em;
+        .photo-b{
+            @extend %imgs-formacion;
+        }
+        .seccion-b{
+            .titulo-2{
+                @extend %estilo-subtitulos;
+            }
+            .texto-b{
+                @extend %estilo-textos;
+            }
+        }
+    }
+    .asistencia{
+        display: flex;
+        column-gap: 1em;
+        .seccion-c{
+            .titulo-3{
+                @extend %estilo-subtitulos;
+            }
+            .texto-c{
+                @extend %estilo-textos;
+            }
+        }
+        .photo-c{
+            @extend %imgs-formacion;
+        }
+    }
+}
