@@ -37,6 +37,7 @@ a:hover {
   border-radius: 3px;
   box-shadow: 3px 3px 3px 3px white;
   font-weight: bold;
+  transition: 0.5s;
 }
 
 .encabezado {
@@ -50,7 +51,7 @@ a:hover {
   align-items: center;
 }
 .encabezado .logo img {
-  width: 15vh;
+  width: 9vw;
 }
 .encabezado .logo h1 {
   font-weight: 10;
@@ -134,15 +135,16 @@ a:hover {
   border-radius: 1vh;
   box-shadow: 2px 2px 2px 2px black;
 }
-.main-nosotros .imagenes .linea-2 {
+.main-nosotros .linea-2 {
   display: flex;
   column-gap: 1vh;
   padding: 1vh;
 }
-.main-nosotros .imagenes .linea-2 img {
+.main-nosotros .linea-2 img {
   width: 17em;
   border-radius: 1vh;
   box-shadow: 2px 2px 2px 2px black;
+  transition: 0.5s;
 }
 
 .primero-card {
@@ -154,6 +156,7 @@ a:hover {
 .primero-card .body-card {
   background-color: rgb(214, 211, 21);
 }
+
 .segundo-card {
   display: flex;
   flex-direction: row;
@@ -163,6 +166,7 @@ a:hover {
 .segundo-card .body-card {
   background-color: rgb(214, 211, 21);
 }
+
 /*body contacto*/
 .contacto {
   padding: 10px;
@@ -216,6 +220,11 @@ a:hover {
   display: flex;
   column-gap: 1em;
 }
+.photo-a .photo-b .photo-c:hover {
+  width: 29em;
+  transition: 0.5s;
+}
+
 .pie div h2 {
   color: rgb(214, 211, 21);
   display: flex;
@@ -231,7 +240,7 @@ a:hover {
   padding-left: 0;
 }
 .pie div ul li a img {
-  width: 9vh;
+  width: 5vw;
   padding: 2vh;
 }
 

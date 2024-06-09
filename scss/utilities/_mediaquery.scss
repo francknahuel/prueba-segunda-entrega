@@ -11,7 +11,6 @@
         nav{
             .contaner-fluid{
                 .menu-button{
-                    .menu-icon{}
                 }
             }
             .navbar-collapse{
@@ -26,9 +25,6 @@
 
     /*body index*/ 
     .main-index{
-        .eslogan{
-            h2{}
-        }
         .presentacion{
         p{
             font-size: medium;
@@ -44,42 +40,18 @@
     /*main sobre nosotros*/
     .main-nosotros{
         flex-direction: column;
-        .parrafo{
-            h2{}
-            p{} 
-        }
         .imagenes{
             .linea-1{
                 justify-content: center;
-                img{}
             }
             .linea-2{
                 justify-content: center;
-                img{}
+
             }
         }
     }
     /*main contacto*/
     .contacto{
-        .formulario{
-            form{
-                .informacion{
-                    .form-label{}
-                    .form-control{}
-                    }
-                .informacion-2{
-                    .form-label{}
-                    .form-select{}   
-                    }
-                .informacion-3{
-                    .imput-3{}
-                    .label-3{}
-                    } 
-                .boton-contacto{
-                    .btn-primary{}
-                    } 
-                }
-            } 
         .img-contacto{
             .photo{
                 .photo-a{
@@ -194,25 +166,6 @@
 }
 /*main contacto*/
 .contacto{
-    .formulario{
-        form{
-            .informacion{
-                .form-label{}
-                .form-control{}
-                }
-            .informacion-2{
-                .form-label{}
-                .form-select{}   
-                }
-            .informacion-3{
-                .imput-3{}
-                .label-3{}
-                } 
-            .boton-contacto{
-                .btn-primary{}
-                } 
-            }
-        } 
     .img-contacto{
         flex-direction: column;
         padding: 3vh;

@@ -23,6 +23,7 @@
                 border-radius: 1vh;
                 box-shadow: 2px 2px 2px 2px black;
             }
+            } 
         }
         .linea-2{
             display: flex;
@@ -32,7 +33,11 @@
                 width: 17em;
                 border-radius: 1vh;
                 box-shadow: 2px 2px 2px 2px black;
+                transition: 0.5s;
+                
             }
         }
     }
-}
+
+
+
