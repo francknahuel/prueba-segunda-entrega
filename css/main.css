@@ -220,11 +220,6 @@ a:hover {
   display: flex;
   column-gap: 1em;
 }
-.photo-a .photo-b .photo-c:hover {
-  width: 29em;
-  transition: 0.5s;
-}
-
 .pie div h2 {
   color: rgb(214, 211, 21);
   display: flex;
